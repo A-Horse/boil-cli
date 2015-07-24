@@ -1,0 +1,24 @@
+{
+  "name": "mok",
+  "version": "1.0.0",
+  "description": "boilerplate command tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/A-Horse/mok.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Horse/mok/issues"
+  },
+  "homepage": "https://github.com/A-Horse/mok",
+  "bin": {
+    "mok": "bin/mok"
+  },
+  "dependencies": {
+    "progress": "^1.1.8"
+  }
+}
