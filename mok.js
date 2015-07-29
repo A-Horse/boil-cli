@@ -1,5 +1,7 @@
 'use strict';
 
+var cli = require('../lib/cli');
+
 var mok = module.exports = {};
 
 mok.config = {
@@ -28,5 +30,9 @@ mok.cli.version = function() {
 };
 
 mok.cli.run = function(argv){
-  mok.cli.version();
+
+  mok.processCWD = process.cwd();
+  
+  
+
 };
