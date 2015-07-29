@@ -23,10 +23,15 @@ mok.cli.version = function() {
         '|_| |_| |_|\\___/|_|\\_\\',
         '         ------AbyChan'
     ].join('\n');
-  console.log( content );
-
+    console.log(content);
 };
 
-mok.cli.run = function(argv){
-  mok.cli.version();
+mok.cli.help = function() {
+    var content = [
+
+    ];
+};
+
+mok.cli.run = function(argv) {
+    mok.cli.version();
 };
