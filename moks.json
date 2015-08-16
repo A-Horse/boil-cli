@@ -1,0 +1,10 @@
+{
+  "moks": {
+    "html5": {
+      "type": "web-front"
+    },
+    "node": {
+      "type": "node-backend"
+    }
+  }
+}

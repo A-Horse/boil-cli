@@ -1,0 +1,19 @@
+{
+  "name": "html5",
+  "version": "0.0.0",
+  "authors": [
+    "AbyChan <crystal.tyan@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+
+  }
+}
