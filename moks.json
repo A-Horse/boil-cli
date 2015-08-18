@@ -5,6 +5,12 @@
     },
     "node": {
       "type": "node-backend"
+    },
+    ".gitignore": {
+      "type": "pure-file"
+    },
+    ".jshintrc": {
+      "type": "pure-file"
     }
   }
 }
