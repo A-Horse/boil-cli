@@ -11,6 +11,14 @@
     },
     ".jshintrc": {
       "type": "pure-file"
+    },
+    "ss": {
+      "type": "web-front"
     }
-  }
+  },
+  "type": [
+    "web-front",
+    "node-backend",
+    "pure-file"
+  ]
 }
