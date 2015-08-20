@@ -11,9 +11,6 @@
     },
     ".jshintrc": {
       "type": "pure-file"
-    },
-    "ss": {
-      "type": "web-front"
     }
   },
   "type": [
