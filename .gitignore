@@ -2,5 +2,6 @@ node_modules
 *.swp
 #*
 *#
+.tern-port
 tags
 *~
