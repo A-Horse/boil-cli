@@ -1,5 +1,5 @@
 {
-  "name": "mok",
+  "name": "j-pouch",
   "version": "1.0.0",
   "moks": "moks",
   "description": "boilerplate command tool",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/A-Horse/mok",
   "bin": {
-    "mok": "bin/mok"
+    "pouch": "bin/pouch"
   },
   "dependencies": {
     "async": "^1.4.0",
