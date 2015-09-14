@@ -1,3 +1,5 @@
 #! /usr/bin/env node
 
+require('../checkPouch.js')();
+
 require('../lib/cli.js').run(process.argv);
