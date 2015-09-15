@@ -6,6 +6,7 @@ var Util = require('./lib/util');
 
 var config = require('./config');
 
+console.log(process);
 
 var check_pouch = function(){
     if ( !Util.checkExist(config.pouch_path) ) {

@@ -1,3 +1,3 @@
 
 
-exports.pouch_path = process.env.OLDPWD + '/.jpouch';
+exports.pouch_path = process.env.HOME + '/.jpouch';
