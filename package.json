@@ -1,5 +1,5 @@
 {
-    "name": "j-pouch",
+    "name": "boil-cli",
     "version": "1.0.0",
     "moks": "moks",
     "description": "boilerplate command tool",
