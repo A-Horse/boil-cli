@@ -1,5 +1,8 @@
 'use strict';
 
-require('../lib/check.js')();
+// require('../lib/check.js')();
+import checkBoilConfig from '../lib/check';
 
-require('../lib/cli.js').run(process.argv);
+checkBoilConfig();
+
+// require('../lib/cli.js').run(process.argv);
