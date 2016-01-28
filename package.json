@@ -17,7 +17,7 @@
     },
     "homepage": "https://github.com/A-Horse/mok",
     "bin": {
-        "pouch": "bin/pouch"
+        "boil": "bin/boil-cli"
     },
     "dependencies": {
         "async": "^1.4.0",
