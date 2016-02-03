@@ -5,6 +5,8 @@ import checkBoilConfig from '../lib/check';
 import cli from '../lib/cli';
 
 
-checkBoilConfig();
-cli.run(process.argv);
+checkBoilConfig(() => {
+    cli.run(process.argv);
+});
+
 
