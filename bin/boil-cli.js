@@ -2,7 +2,9 @@
 
 // require('../lib/check.js')();
 import checkBoilConfig from '../lib/check';
+import cli from '../lib/cli';
+
 
 checkBoilConfig();
+cli.run(process.argv);
 
-// require('../lib/cli.js').run(process.argv);
