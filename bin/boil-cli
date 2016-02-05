@@ -1,6 +1,19 @@
 #! /usr/bin/env node
 'use strict';
 
-require('../lib/check.js')();
+// require('../build/check.js')();
 
-require('../lib/cli.js').run(process.argv);
+var _check = require('../build/check');
+
+var _check2 = _interopRequireDefault(_check);
+
+var _cli = require('../build/cli');
+
+var _cli2 = _interopRequireDefault(_cli);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _check2.default)(function () {
+    _cli2.default.run(process.argv);
+});
+
